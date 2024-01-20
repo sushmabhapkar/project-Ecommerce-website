@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <h4>Ecommerce Website</h4>
+
+               <form class="form-group" id="form">
+               
+
+               <label for="sprice" name="sprice">Selling Price:</label>
+               <input type="number" id="sprice" name="sprice" class="from-control">
+
+               <label for="pname" name="pname" >Product Name:</label>
+               <input type="text" id="pname" name="pname" class="from-control">
+
+               <button type="submit">Add Product</button> <br>
+
+               <h5>Products:</h5>
+
+            </form>
+            <ul id="list"></ul>
+             <div id="totalsum"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.5/axios.min.js"></script>
+    <script src="product.js"></script>
+</body>
+</html>
